@@ -4,14 +4,14 @@ Ext.define('MLOC.store.Personnel', {
     alias: 'store.personnel',
 
     fields: [
-        'name', 'email', 'phone'
+        'name', 'ip'
     ],
 
     data: { items: [
-        { name: 'Jean Luc', email: "jeanluc.picard@enterprise.com", phone: "555-111-1111" },
-        { name: 'Worf',     email: "worf.moghsson@enterprise.com",  phone: "555-222-2222" },
-        { name: 'Deanna',   email: "deanna.troi@enterprise.com",    phone: "555-333-3333" },
-        { name: 'Data',     email: "mr.data@enterprise.com",        phone: "555-444-4444" }
+        { name: 'Jean Luc', ip: "192.168.0.1"},
+        { name: 'Worf',     ip: "192.168.0.2"},
+        { name: 'Deanna',   ip: "192.168.0.3"},
+        { name: 'Data',     ip: "192.168.0.4"}
     ]},
 
     proxy: {

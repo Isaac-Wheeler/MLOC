@@ -9,7 +9,7 @@ Ext.define('MLOC.view.main.List', {
         'MLOC.store.Personnel'
     ],
 
-    title: 'Personnel',
+    title: 'IP\'s',
 
     store: {
         type: 'personnel'
@@ -17,8 +17,7 @@ Ext.define('MLOC.view.main.List', {
 
     columns: [
         { text: 'Name',  dataIndex: 'name' },
-        { text: 'Email', dataIndex: 'email', flex: 1 },
-        { text: 'Phone', dataIndex: 'phone', flex: 1 }
+        { text: 'IP', dataIndex: 'ip', flex: 1 },
     ],
 
     listeners: {

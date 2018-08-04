@@ -80,7 +80,7 @@ Ext.define('MLOC.view.main.Main', {
         iconCls: 'fa-home',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
-            xtype: 'mainlist'
+            xtype: 'homeView'
         }]
     }, {
         title: 'Users',
@@ -88,17 +88,5 @@ Ext.define('MLOC.view.main.Main', {
         bind: {
             html: '{loremIpsum}'
         }
-    }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Settings',
-        iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }]
+      }]
 });
